@@ -4,24 +4,24 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>WebStudio</title>
+    <title>Studio</title>
   </head>
   <body>
     <header>
       <a href="/"> <span class="web"> Web</span><span class="studio">Studio</span> </a>
       <nav>
-        <a href="/agencja"> Agencja</a>
-        <a href="/portfolio">Portfolio</a>
-        <a href="/kontakt">Kontakt</a>
+        <ul>
+          <li><a href="/agencja"> Agencja</a></li>
+          <li><a href="/portfolio">Portfolio</a></li>
+          <li><a href="/kontakt">Kontakt</a></li>
+        </ul>
       </nav>
-      <a href="mailto:info@devstudio.com">info@devstudio.com </a> <br />
-      <a href="tel:+48 111 111 111"> +48 111 111 111 </a> <br />
+      <ul>
+        <li><a href="mailto:info@devstudio.com">info@devstudio.com </a> <br /></li>
+        <li><a href="tel:+48 111 111 111"> +48 111 111 111 </a> <br /></li>
+      </ul>
     </header>
     <main>
-      <!-- Nagłówki sekcji są oznaczone tagiem <h2>.  -->
-      <!-- Tagi <img> mają atrybuty wymiarów, co najmniej width i height. -->
-      <!--  Tagi <img> mają atrybut alt, który jest wypełniony krótkim opisem tego, co jest pokazane na obrazku. -->
-      <!-- Grupy elementów tego samego typu są gromadzone na listach <ul>. -->
       <div class="dark">
         <h1>EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
 
@@ -63,30 +63,101 @@
       </div>
       <section class="whattodo">
         <h2>Czym się zajmujemy</h2>
-        <img
-          src="images/box 1.jpg"
-          alt="praca przy komputerze w domu"
-          width="370px"
-          height="294px"
-        />
-        <img
-          src="images/box 2.jpg"
-          alt="łączenie telefonu z komputerem "
-          width="370px"
-          height="294px"
-        />
-        <img src="images/box 3.jpg" alt="wybór koloru z palety RGB" width="370px" height="294px" />
+        <ul>
+          <li>
+            <img
+              src="images/box 1.jpg"
+              alt="praca przy komputerze w domu"
+              width="370px"
+              height="294px"
+            />
+          </li>
+          <li>
+            <img
+              src="images/box 2.jpg"
+              alt="łączenie telefonu z komputerem "
+              width="370px"
+              height="294px"
+            />
+          </li>
+          <li>
+            <img
+              src="images/box 3.jpg"
+              alt="wybór koloru z palety RGB"
+              width="370px"
+              height="294px"
+            />
+          </li>
+        </ul>
       </section>
       <section>
         <h2>Nasz zespół</h2>
+        <ul>
+          <li>
+            <figure>
+              <img
+                src="images/img product.jpg"
+                alt="John Doe Product Designer"
+                width="270px"
+                height="260px"
+              />
+              <figcaption class="signature">
+                John Doe <br />
+                Product Designer
+              </figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <img
+                src="images/img front.jpg"
+                alt="John Doe Frontend Developer"
+                width="270px"
+                height="260px"
+              />
+              <figcaption class="signature">
+                John Doe <br />
+                Frontend Developer
+              </figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <img
+                src="images/img marketing.jpg"
+                alt="John Doe Marketing"
+                width="270px"
+                height="260px"
+              />
+              <figcaption class="signature">
+                John Doe <br />
+                Marketing
+              </figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <img
+                src="images/img ui designer.jpg"
+                alt="John Doe UI Designer"
+                width="270px"
+                height="260px"
+              />
+              <figcaption class="signature">
+                John Doe <br />
+                UI Designer
+              </figcaption>
+            </figure>
+          </li>
+        </ul>
       </section>
     </main>
     <footer>
       <address>
-        <a href="/"> <span class="web"> Web</span><span class="studio">Studio</span> </a> <br />
-        m. Warszawa, Aleje Jerozolimskie 21 <br />
-        <a href="mailto:info@example.com">info@example.com </a> <br />
-        <a href="tel:+48 111 111 111"> +48 111 111 111 </a> <br />
+        <ul ><li><a href="/"> <span class="web"> Web</span><span class="studio">Studio</span> </a> <br /></li>
+            <li> m. Warszawa, Aleje Jerozolimskie 21 <br /></li>
+            <li><a href="mailto:info@example.com">info@example.com </a> <br /></li>
+            <li><a href="tel:+48 111 111 111"> +48 111 111 111 </a> <br /></ul></li>
       </address>
     </footer>
   </body>
